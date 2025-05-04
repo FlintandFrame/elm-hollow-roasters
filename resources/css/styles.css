@@ -469,7 +469,7 @@ button:hover,
 /* ================ About page styles ================ */
 /* Hero Section */
 .about-hero {
-	background-image: url('../images/elm-hollow-about-hero.PNG');
+	background-image: url('../images/elm-hollow-about-hero.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
