@@ -1,0 +1,148 @@
+<!--
+	Elm Hollow Roasters - Homepage
+	Website built and designed by N. Wimer.
+	This page introduces the coffee shop's brand, featured coffee blends, and welcoming aesthetic.
+
+	Sections include: Header, Hero Intro, Featured Blends, Brand Intro
+
+	Created: 2025
+	Last Updated: 5/3/25
+	Technologies: HTML, CSS, Javascript
+	Fonts: JetBrains Calder Serif, Work Sans
+	Color Palette: #F8F5F0, #3B2F2A, #BFCABC, #C7A89A, #1D1C1A, #F5F1EB, #D7A86E
+
+	This site is crafted, not generated
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<!-- Page metadata for SEO, responsiveness, and styling -->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Elm Hollow Roasters is a cozy, modern-rustic coffee shop built on warmth, craft, and community. Explore our roasts, discover our story, and settle into something real." />
+	<meta name="author" content="N. Wimer" />
+
+	<!-- Title -->
+	<title>Elm Hollow Roasters</title>
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link href="./resources/css/styles.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<!-- Header Section - contains logo and navigation -->
+	<header id="header">
+		<div class="header-container">
+
+			<!-- Logo: left side of the header -->
+			<div class="logo">
+				<img src="./resources/images/elm-hollow-logo.PNG" alt="Elm Hollow Roasters Logo" width="270">
+			</div>
+
+			<!-- Main navigation: right side of the header -->
+			<nav class="main-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="About">About</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main id="main">
+		<!-- Hero Section -->
+		<section class="hero">
+			<div class="hero-content">
+				<h1>Elm Hollow Roasters</h1>
+				<p class="tagline">Rooted in craft. Roasted with care.</p>
+				<a href="menu.html" class="cta-button">See Our Coffee</a>
+			</div>
+		</section>
+
+		<!-- Featured Blends Section -->
+		<section class="featured-blends">
+			<h2 class="section-title">Featured Blends</h2>
+
+			<div class="blend-grid">
+				<!-- Blend 1 -->
+				<div class="blend-card blend-1">
+					<img src="./resources/images/elm-hollow-fireside-blend.PNG" alt="Fireside Blend Coffee" />
+					<h3>Fireside Blend</h3>
+					<p>Warm and smoky, perfect for crisp mornings.</p>
+				</div>
+
+				<!-- Blend 2 (slightly offset lower) -->
+				<div class="blend-card blend-2">
+					<img src="./resources/images/elm-hollow-colombian-dark-roast.PNG" alt="Colombian Dark Roast">
+					<h3>Colombian Dark Roast</h3>
+					<p>Deep and full-bodied with notes of toasted walnut and dark chocolate - bold, but never bitter.</p>
+				</div>
+
+				<!-- Blend 3 -->
+				<div class="blend-card blend-3">
+					<img src="./resources/images/elm-hollow-harvest-moon-blend.PNG" />
+					<h3>Harvest Moon Blend</h3>
+					<p>Rich and bold, with hints of spice and cocoa.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Brand Intro Section -->
+		<section class="brand-intro">
+			<div class="brand-intro-container">
+
+				<!-- text content -->
+				<div class="brand-text">
+					<h2>Rooted in Craft</h2>
+					<p>
+						At Elm Hollow Roasters, coffee isn't just a drink - it's a craft, a ritual, a daily moment of grounding. We source with care and roast with purpose, creating blends that feel as intentional as they taste.
+					</p>
+					<p>
+						Our roastery is a place for slow mornings and honest work. For people who value quality and quiet confidence. Welcome to Elm Hollow.
+					</p>
+				</div>
+
+				<!-- Image -->
+				<div class="brand-image">
+					<img src="./resources/images/elm-hollow-brand-intro.PNG" alt="Inside view of the Elm Hollow Roastery" width="540" height="640">
+				</div>
+			</div>
+		</section>
+
+		<!-- Call to Action Section -->
+		<section class="cta-section">
+			<div class="cta-content">
+				<h2>Ready to Brew Something Better?</h2>
+				<a href="menu.html" class="cta-button">See What's Brewing</a>
+			</div>
+		</section>
+	</main>
+
+	<!-- Footer Section -->
+	<footer id="footer">
+		<span class="section-divider"></span>
+		<!-- Top navigation row -->
+		<div class="footer-links">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</div>
+
+		<!-- Bottom row: contact and copyright -->
+		<div class="footer-info">
+			<p class="footer-email">hello@elmhollow.com</p>
+			<p class="footer-copy">&copy; 2025 Elm Hollow Roasters</p>
+		</div>
+	</footer>
+</body>
+</html>
