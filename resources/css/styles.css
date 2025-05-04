@@ -115,7 +115,7 @@ button:hover,
 
 /* ==================== Hero Section ============== */
 .hero {
-	background-image: url('../images/elm-hollow-home-hero.PNG');
+	background-image: url('./images/elm-hollow-home-hero.PNG');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
